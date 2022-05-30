@@ -18,8 +18,11 @@ echo "$(tput setaf 3)-----------------------------------------------------------
 echo "$(tput setaf 2)--------------------------[ Updating System ]----------------------------"
 echo "$(tput setaf 3)--------------------------------------------------------------------------------------"
 sudo apt update -y && sudo apt upgrade -y                      # CMD
+
+# Setting bashrc
 rm .bashrc
 # wget https://raw.githubusercontent.com/9jc/dots-ubuntu/main/.bashrc
+wget https://raw.githubusercontent.com/9jc/dots-ubuntu/main/.zshrc
 #################################################################################
 echo ""
 echo ""
